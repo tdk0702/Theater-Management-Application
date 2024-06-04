@@ -19,7 +19,7 @@ Lecturer: Nguyen Phuoc Bao Long
 | ------ | ------ | ------ | ------|
 | 1 | Truong Duy Khoi | 22520702 | [tdk0702](https://github.com/tdk0702) |
 | 2 | Tien Đuc Anh Hao | 22520404 | [haouit](https://github.com/haouit) |
-| 3 | Phan Quoc Đat | 22520233 | [PhanQDat](https://github.com/PhanQDat) |
+| 3 | Phan Quoc Dat | 22520233 | [PhanQDat](https://github.com/PhanQDat) |
 | 4 | Pham Van Phu | 21522467 | [MinPoc](https://github.com/MinPoc)|
 
 ## Feature
