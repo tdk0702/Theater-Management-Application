@@ -98,12 +98,28 @@ namespace Theater.Client
                 ack = Home.GetData(clientname, query);
                 if (!ack.Contains("[ACK]")) { Console.WriteLine("Insert BUYED Err: " + ack); return; };
             }
-            sendMail();
-           MessageBox.Show("Đã xong.");
+            string email = ClientUser.email;
+            email = verifyEmail(email);
+            sendMail(email);
+            MessageBox.Show("Đã đặt vé thành công.");
             this.Close();
         }
 
-        private void sendMail()
+        private string verifyEmail(string email)
+        {
+            using (ChangeMail cmform = new ChangeMail(email))
+            {
+                DialogResult dr = cmform.ShowDialog();
+                if (dr == DialogResult.OK)
+                {
+                    return cmform.Email;
+                }
+            }
+            return email;
+
+        }
+
+        private void sendMail(string email)
         {
             SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
             NetworkCredential credential = new NetworkCredential(
@@ -112,7 +128,7 @@ namespace Theater.Client
             smtp.Credentials = credential;
             smtp.EnableSsl = true;
             message.From = new MailAddress("tdk.movietheater@gmail.com", "Movie Theater");
-            message.To.Add(new MailAddress(ClientUser.email));
+            message.To.Add(new MailAddress(email));
             message.Subject = "PHẢN HỒI VÉ XEM PHIM";
             message.Body = MailText();
             message.IsBodyHtml = true;

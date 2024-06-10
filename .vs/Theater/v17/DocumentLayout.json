@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Projects\\CS\\Theater\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B317A900-39CA-4EE8-BA82-914920142594}|Theater\\Theater.csproj|d:\\projects\\cs\\theater\\theater\\client\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B317A900-39CA-4EE8-BA82-914920142594}|Theater\\Theater.csproj|solutionrelative:theater\\client\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B317A900-39CA-4EE8-BA82-914920142594}|Theater\\Theater.csproj|d:\\projects\\cs\\theater\\theater\\client\\changemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B317A900-39CA-4EE8-BA82-914920142594}|Theater\\Theater.csproj|solutionrelative:theater\\client\\changemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B317A900-39CA-4EE8-BA82-914920142594}|Theater\\Theater.csproj|d:\\projects\\cs\\theater\\theater\\client\\changemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B317A900-39CA-4EE8-BA82-914920142594}|Theater\\Theater.csproj|solutionrelative:theater\\client\\changemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B317A900-39CA-4EE8-BA82-914920142594}|Theater\\Theater.csproj|d:\\projects\\cs\\theater\\theater\\client\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B317A900-39CA-4EE8-BA82-914920142594}|Theater\\Theater.csproj|solutionrelative:theater\\client\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +55,56 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangeMail.cs",
+              "DocumentMoniker": "D:\\Projects\\CS\\Theater\\Theater\\Client\\ChangeMail.cs",
+              "RelativeDocumentMoniker": "Theater\\Client\\ChangeMail.cs",
+              "ToolTip": "D:\\Projects\\CS\\Theater\\Theater\\Client\\ChangeMail.cs",
+              "RelativeToolTip": "Theater\\Client\\ChangeMail.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAEwBQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:36:26.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChangeMail.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\CS\\Theater\\Theater\\Client\\ChangeMail.cs",
+              "RelativeDocumentMoniker": "Theater\\Client\\ChangeMail.cs",
+              "ToolTip": "D:\\Projects\\CS\\Theater\\Theater\\Client\\ChangeMail.cs [Design]",
+              "RelativeToolTip": "Theater\\Client\\ChangeMail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:33:38.736Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "D:\\Projects\\CS\\Theater\\Theater\\Client\\Bill.cs",
+              "RelativeDocumentMoniker": "Theater\\Client\\Bill.cs",
+              "ToolTip": "D:\\Projects\\CS\\Theater\\Theater\\Client\\Bill.cs",
+              "RelativeToolTip": "Theater\\Client\\Bill.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:31:18.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bill.cs [Design]",
+              "DocumentMoniker": "D:\\Projects\\CS\\Theater\\Theater\\Client\\Bill.cs",
+              "RelativeDocumentMoniker": "Theater\\Client\\Bill.cs",
+              "ToolTip": "D:\\Projects\\CS\\Theater\\Theater\\Client\\Bill.cs [Design]",
+              "RelativeToolTip": "Theater\\Client\\Bill.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T18:20:06.745Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
